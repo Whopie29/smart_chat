@@ -1,0 +1,39 @@
+# ⛔ Python cache
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ⛔ Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# ⛔ Jupyter notebooks (optional)
+.ipynb_checkpoints/
+
+# ⛔ Mac and system files
+.DS_Store
+Thumbs.db
+
+# ⛔ VS Code settings (optional)
+.vscode/
+
+# ⛔ Streamlit secrets (keep your API keys private!)
+.streamlit/secrets.toml
+
+# ⛔ Logs or temp files
+*.log
+*.tmp
+*.bak
+
+# ⛔ OS-specific files
+*.swp
+*~
+
+# ⛔ Streamlit cache (optional)
+.streamlit/config.toml
